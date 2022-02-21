@@ -1,0 +1,30 @@
+@import 'reset';
+@import 'vars';
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+@import 'class';
+
+*,
+::after,
+::before{
+    box-sizing: border-box;
+}
+body{
+    $main-color1: #7D7987;
+    $main-font-size:18px;
+    $main-font-weight:700;
+    $main-font-family:'Mulish', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family:$main-font-family;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    display: block;
+}

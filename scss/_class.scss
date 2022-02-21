@@ -1,0 +1,16 @@
+.title {
+    font-family: $main-font-family;
+    font-weight: $title-font-weight;
+    font-size: $title-font-size;
+    color: $color-title;
+}
+.text {
+    $text-font-weight: 300;
+    $text-font-size: 18px;
+    $text-font-weight: 700;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
