@@ -353,18 +353,23 @@ template {
   font-weight: 700;
   font-size: 24px;
   color: #000000;
+  line-height: 56px;
 }
 
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.text {
+  font-size: 18px;
+  font-weight: 300;
+  color: #7D7987;
+  line-height: 32px;
+}
+
+.btn {
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
+  color: #458FF6;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px 50px;
 }
 
 *,
@@ -372,6 +377,13 @@ template {
 ::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  color: #7D7987;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
 }
 
 a {
@@ -401,6 +413,69 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
+}
+
+.header-top {
+  padding-top: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-menu__list + .header-menu__list {
+  margin-left: 40px;
+}
+.header-menu__link {
+  color: #1F1534;
+  font-size: 18px;
+  line-height: 23px;
+  opacity: 0.5;
+}
+.header-menu__link:hover {
+  opacity: unset;
+}
+.header-menu__list--active {
+  opacity: unset;
+}
+.header-content {
+  padding-top: 84px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-info__title {
+  font-size: 48px;
+  max-width: 427px;
+  margin-bottom: 25px;
+}
+.header-info__text {
+  max-width: 445px;
+  margin-bottom: 45px;
+}
+.header-btn:hover {
+  color: #7D7987;
 }
 
 .footer {
