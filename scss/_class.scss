@@ -1,21 +1,26 @@
-.container{
+.container {
     max-width: 1280px;
     margin: 0 auto;
-    padding:0px 15px;
+    padding: 0px 15px;
 }
 .title {
     font-family: $main-font-family;
     font-weight: $title-font-weight;
     font-size: $title-font-size;
     color: $color-title;
+    line-height:$line-height-title;
 }
 .text {
-    $text-font-weight: 300;
-    $text-font-size: 18px;
-    $text-font-weight: 700;
+    font-size:$text-font-size;
+    font-weight:$text-font-weight;
+    color:$color-text;
+    line-height:$line-height-text;
 }
-.flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.btn {
+    border:$button-border;
+    border-radius:$button-border-radius;
+    color:$color-btn;
+    font-weight:$font-weight-button;
+    font-size:$font-size-button;
+    padding:$padding-button;
 }

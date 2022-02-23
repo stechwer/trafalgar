@@ -4,13 +4,17 @@ $main-color2: #FFFFFF;
 $color-title:#000000;
 $color-text:#7D7987;
 $color-btn:#458FF6;
+$header-nav-link-color:#1F1534;
 ////////////////////////////////////////////title///////////////////////////////
 $title-font-weight:700;
 $title-font-size:24px;
+$color-title:#000000;
+$line-height-title:56px;
 ////////////////////////////////////////////text///////////////////////////////
 $text-font-weight:300;
 $text-font-size:18px;
-$text-font-weight:700;
+$color-text:#7D7987;
+$line-height-text:32px;
 ////////////////////////////////////////font-family///////////////////////////
 $main-font-family:'Mulish', sans-serif;
 ///////////////////////////////////////body//////////////////////////////////
@@ -18,3 +22,16 @@ $main-color1: #7D7987;
 $main-font-size:18px;
 $main-font-weight:700;
 $main-font-family:'Mulish', sans-serif;
+//////////////////////////////////////btn///////////////////////////////////
+$button-border: 1.4px solid #458FF6;
+$button-border-radius:55px;
+$color-btn:#458FF6;
+$font-weight-button:700;
+$font-size-button:18px;
+$padding-button:20px 50px;
+$hover-color-button:#7D7987;
+///////////////////////////////////////header-nav-link////////////////////
+$header-nav-link-color:#1F1534;
+$header-nav-link-font-size:18px;
+$header-nav-link-line-height: 23px;
+$header-nav-link-opacity:0.5;

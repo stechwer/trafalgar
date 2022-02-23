@@ -2,6 +2,7 @@
 @import 'vars';
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
 @import 'class';
+@import 'mixin';
 
 *,
 ::after,
@@ -9,10 +10,10 @@
     box-sizing: border-box;
 }
 body{
-    $main-color1: #7D7987;
-    $main-font-size:18px;
-    $main-font-weight:700;
-    $main-font-family:'Mulish', sans-serif;
+    color:$main-color1;
+    font-size:$main-font-size;
+    font-weight:$main-font-weight;
+    font-family:$main-font-family;
 }
 a{
     text-decoration: none;
@@ -33,6 +34,51 @@ img{
     flex-direction: column;
     min-height: 100vh;
 }
+.header{
+    &-top{
+        padding-top: 56px;
+        @include flex;
+    }
+    &-menu{
+        @include flex;
+        &__list + &__list{
+            margin-left: 40px;
+        }
+        &__link{
+            color:$header-nav-link-color;
+            font-size:$header-nav-link-font-size;
+            line-height:$header-nav-link-line-height;
+            opacity:$header-nav-link-opacity;
+        }
+        &__link:hover{
+            opacity: unset;
+        }
+        &__list--active{
+            opacity: unset;
+        }
+    }
+    &-content{
+        padding-top:84px;
+        @include flex;
+    }
+    &-info{
+        &__title{
+            font-size: 48px;
+            max-width: 427px;
+            margin-bottom: 25px;
+        }
+        &__text{
+            max-width:445px;
+            margin-bottom:45px;
+        }
+    }
+    &-btn:hover{
+        color:$hover-color-button;
+    }
+}
+
+
+
 .footer{
     margin-top: auto;
 }
