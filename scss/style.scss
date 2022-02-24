@@ -88,7 +88,7 @@ img {
     }
     &-inner {
         @include grid;
-        margin-bottom:72px;
+        margin-bottom: 72px;
     }
     &__item {
         margin: 0 auto;
@@ -96,78 +96,125 @@ img {
         box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
         border-radius: 20px;
         width: 350px;
-        padding:20px;
+        padding: 20px;
         text-align: center;
-        &-image{
+        &-image {
             margin: 0 auto;
         }
     }
-    &-btn{
+    &-btn {
         display: block;
         margin: 0 auto;
     }
 }
-.provide{
-    padding:100px 0px 130px;
-    &-inner{
+.provide {
+    padding: 100px 0px 130px;
+    &-inner {
         @include flex;
     }
-    &-content__title{
+    &-content__title {
         font-size: 36px;
         max-width: 470px;
         margin-bottom: 58px;
     }
-    &-content__text{
+    &-content__text {
         max-width: 440px;
         margin-bottom: 36px;
     }
 }
-.mobile{
-    padding:100px 0px 130px;
-    &-inner{
+.mobile {
+    padding: 100px 0px 130px;
+    &-inner {
         @include flex;
     }
-    &-content__title{
+    &-content__title {
         font-size: 36px;
         max-width: 250px;
         margin-bottom: 60px;
     }
-    &-content__text{
+    &-content__text {
         max-width: 370px;
-        margin-bottom:40px;
+        margin-bottom: 40px;
     }
 }
-.testimonials{
-    padding:130px 0px;
-    &-wrapper{
-        padding:70px;
-        background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+.testimonials {
+    padding: 130px 0px;
+    &-wrapper {
+        padding: 70px;
+        background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
         border-radius: 24px;
     }
-    &__title{
+    &__title {
         text-align: center;
-        color:$main-color2;
+        color: $main-color2;
         font-size: 36px;
         margin-bottom: 93px;
     }
-    &-inner{
+    &-inner {
         @include flex;
     }
-    &-content{
+    &-content {
         @include flex;
     }
-    &-data{
-        margin-left:30px;
-        &__name{
-            color:$main-color2;
+    &-data {
+        margin-left: 30px;
+        &__name {
+            color: $main-color2;
         }
-        &__work{
+        &__work {
             color: rgba(255, 255, 255, 0.9);
         }
     }
-    &-info{
+    &-info {
         max-width: 380px;
         color: rgba(255, 255, 255, 0.9);
+    }
+}
+.about {
+    padding: 150px 0px 200px;
+    &__title {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 100px;
+        line-height: 32px;
+        font-weight: 700;
+        color: #000000;
+    }
+    &-inner {
+        @include flex;
+        margin-bottom:70px;
+    }
+    &-content {
+        padding: 21px 20px 35px;
+    }
+    &__item-title {
+        margin-bottom: 12px;
+    }
+    &-item__image{
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    &__item-text {
+        margin-bottom: 25px;
+        max-width: 280px;
+    }
+    &__item-btn {
+        border: none;
+        padding: 0;
+    }
+    &__item {
+        background: #ffffff;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        width: 350px;
+        &-title {
+            line-height: 32px;
+        }
+    }
+    &-btn{
+        text-align: center;
+        display: block;
+        margin: 0 auto;
     }
 }
 .footer {
