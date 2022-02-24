@@ -546,6 +546,30 @@ img {
   margin-bottom: 36px;
 }
 
+.mobile {
+  padding: 100px 0px 130px;
+}
+.mobile-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mobile-content__title {
+  font-size: 36px;
+  max-width: 250px;
+  margin-bottom: 60px;
+}
+.mobile-content__text {
+  max-width: 370px;
+  margin-bottom: 40px;
+}
+
 .footer {
   margin-top: auto;
 }

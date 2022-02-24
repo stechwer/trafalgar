@@ -122,6 +122,21 @@ img {
         margin-bottom: 36px;
     }
 }
+.mobile{
+    padding:100px 0px 130px;
+    &-inner{
+        @include flex;
+    }
+    &-content__title{
+        font-size: 36px;
+        max-width: 250px;
+        margin-bottom: 60px;
+    }
+    &-content__text{
+        max-width: 370px;
+        margin-bottom:40px;
+    }
+}
 .footer {
     margin-top: auto;
 }
