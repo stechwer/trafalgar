@@ -107,7 +107,21 @@ img {
         margin: 0 auto;
     }
 }
-
+.provide{
+    padding:100px 0px 130px;
+    &-inner{
+        @include flex;
+    }
+    &-content__title{
+        font-size: 36px;
+        max-width: 470px;
+        margin-bottom: 58px;
+    }
+    &-content__text{
+        max-width: 440px;
+        margin-bottom: 36px;
+    }
+}
 .footer {
     margin-top: auto;
 }
